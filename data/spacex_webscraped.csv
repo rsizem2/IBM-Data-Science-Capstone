@@ -180,7 +180,7 @@ Flight No.,Launch site,Payload,Payload mass,Orbit,Customer,Launch outcome,Versio
 ",F9 B5,Success,8 January 2021,02:15
 105,KSC,Starlink,"15,600 kg",LEO,SpaceX,"Success
 ",F9 B5B1051.8,Success,20 January 2021,13:02
-106,CCSFS,Transporter-1,"~5,000 kg",SSO,,"Success
+106,CCSFS,Transporter-1,"~5,000 kg",SSO,NA,"Success
 ",F9 B5B1058.5,Success,24 January 2021,15:00
 107,CCSFS,Starlink,"15,600 kg",LEO,SpaceX,"Success
 ",F9 B5 ♺,Success,4 February 2021,06:19
