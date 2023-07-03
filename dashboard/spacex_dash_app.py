@@ -28,6 +28,7 @@ app.layout = html.Div(children=[
         id = 'site-dropdown',
         options=[
             {'label': 'All Sites', 'value': 'ALL'},
+            {'label': 'KSC LC-39A', 'value': 'KSC LC-39A'},
             {'label': 'CCAFS LC-40', 'value': 'CCAFS LC-40'},
             {'label': 'VAFB SLC-4E', 'value': 'VAFB SLC-4E'},
             {'label': 'CCAFS SLC-40', 'value': 'CCAFS SLC-40'},
@@ -50,7 +51,7 @@ app.layout = html.Div(children=[
         min=0,
         max=10000,
         step=1000,
-        marks={0: '0', 100: '100'},
+        marks = {i:str(i) for i in range(0,10000, 1000)},
         value=[min_payload, max_payload]
     ),
 
